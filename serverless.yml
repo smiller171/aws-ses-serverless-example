@@ -24,6 +24,9 @@ functions:
     description: Send email using SES service.
     memorySize: 1024
     timeout: 10
+    environment:
+      FROM_EMAIL: ${opt:from}
+      TO_EMAIL: ${opt:to}
     iamRoleStatements:
       - Effect: Allow
         Resource: "*"
