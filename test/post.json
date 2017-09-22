@@ -1,0 +1,7 @@
+{
+  "bodyData": "Hello World",
+  "subjectData": "Test Email",
+  "replyToAddresses": [
+    "test@millergeek.xyz"
+  ]
+}
