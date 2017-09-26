@@ -38,7 +38,7 @@ functions:
           - logs:PutLogEvents
     events:
       - http:
-          path: sendMail
+          path: /
           method: post
           integration: lambda
           cors: true
