@@ -22,7 +22,7 @@ functions:
   sendMail:
     handler: handler.sendMail
     description: Send email using SES service.
-    memorySize: 1024
+    memorySize: 128
     timeout: 10
     environment:
       FROM_EMAIL: ${opt:from}
