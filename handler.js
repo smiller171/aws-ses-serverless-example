@@ -76,6 +76,7 @@ ses.sendEmail(params, function(err, data) {
 // The function to send SES email message
 module.exports.sendMail = (event, context, callback) => {
   const body = event.body;
+  console.log(body);
 
   const toEmailAddresses = [ process.env.TO_EMAIL ];
   const bodyData = body.bodyData;
