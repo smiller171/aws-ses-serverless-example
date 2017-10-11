@@ -84,7 +84,7 @@ module.exports.sendMail = (event, context, callback) => {
   const subjectData = body.subjectData;
   const subjectCharset = body.subjectCharset || "UTF-8";
   const sourceEmail = process.env.FROM_EMAIL;
-  const replyToAddresses = body.replyToAddresses;
+  const replyToAddresses = [ body.replyToAddress ];
 
 // The parameters for sending mail using ses.sendEmail()
   const emailParams = {

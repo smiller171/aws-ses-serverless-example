@@ -1,5 +1,5 @@
 {
-  "body": {"bodyData":"Hello World","subjectData":"Test Email","replyToAddresses":["test@millergeek.xyz"]},
+  "body": {"bodyData":"Hello World","subjectData":"Test Email","replyToAddress":"test@millergeek.xyz"},
   "resource": "/{proxy+}",
   "requestContext": {
     "resourceId": "123456",
